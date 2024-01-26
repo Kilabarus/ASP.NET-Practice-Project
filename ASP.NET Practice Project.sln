@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1A5B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CBB0F9D6-7099-46AA-AFB4-B45B87828AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeWebAPI", "System\PracticeWebAPI\PracticeWebAPI.csproj", "{E22AFC7D-56FD-4993-AD2B-6C007A262B98}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22AFC7D-56FD-4993-AD2B-6C007A262B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22AFC7D-56FD-4993-AD2B-6C007A262B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22AFC7D-56FD-4993-AD2B-6C007A262B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22AFC7D-56FD-4993-AD2B-6C007A262B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E22AFC7D-56FD-4993-AD2B-6C007A262B98} = {D63D6B85-AEAB-4E1E-899E-3CD5DBF50A99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75A67416-2F0D-4366-9B58-1AA2E5D80846}
